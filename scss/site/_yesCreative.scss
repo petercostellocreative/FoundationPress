@@ -8,7 +8,7 @@ $primary-color: #008CBA;
 
 // We use these to control header font sizes
 // $h1-font-size: rem-calc(44);
-$h2-font-size: rem-calc(100);
+$h2-font-size: rem-calc(20);
 // $h3-font-size: rem-calc(27);
 // $h4-font-size: rem-calc(23);
 // $h5-font-size: rem-calc(18);
@@ -22,4 +22,6 @@ color: $primary-color;
 h2{
     font-size: $h2-font-size;
     color:white;
+    font-weight: 700;
+    margin: 0 0 40px 0;
 }
